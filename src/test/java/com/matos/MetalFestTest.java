@@ -14,7 +14,7 @@ class MetalFestTest {
           .when().get("/festival")
           .then()
              .statusCode(200)
-             .body(is("Hello from Quarkus REST"));
+             .body(is("Hello WORLD Matos Metal Fetival Was Born to Go to Dublin"));
     }
 
 }
