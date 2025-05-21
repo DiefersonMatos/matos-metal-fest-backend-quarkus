@@ -17,7 +17,7 @@ public interface MetalFestUserGateway {
     Response getUserById(@PathParam("id") String id);
 
     @GET
-    @Path("/all-susers")
+    @Path("/all-users")
     Response getAllUsers();
 
     @GET
